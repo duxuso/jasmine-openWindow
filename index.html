@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>JavaScript Requirement 7</title>
+    <script src="lib/jquery.js"></script>
+    <script src="src/jquery.openWindow.js"></script>
+</head>
+<body>
+
+<!-- HTML table for display -->
+<table cellpadding="0" cellspacing="0" align="center" bgcolor="#f0fff0">
+    <tr><td align="left" valign="top" style="font-family: Helvetica, Arial, sans-serif;border: solid #808080 2px;">
+        <table cellpadding="0" cellspacing="0" width="800px" border="1">
+            <thead><tr><td align="center" valign="top" colspan="3" style="font-family: Helvetica, Arial, sans-serif;"><h2>Javascript Requirements</h2></td></tr></thead>
+            <tbody><tr><td align="left" valign="top" height="40px" style="font-family: Helvetica, Arial, sans-serif;" colspan="3" bgcolor="#87cefa"><b>Requirement 7</b> Write a jQuery plugin which, given a jQuery object containing anchor elements (e.g $('a')), makes clicking on those elements open the link target in a new window.<br/> The plugin should:<br/><ul><li>Ensure that links with the same data­window­group open in the same window</li><li>Take an option object used to set the features on the new window (size, position, scrollbars, etc.), sensible defaults should be supplied by the plugin.</li></ul></td></tr>
+            <tr><td align="center" valign="middle" height="40px" style="font-size: 14px;"><a href="http://www.google.com" data-window-group="group1"  >the group 1 link 1 (Google)</a></td></tr>
+            <tr><td align="center" valign="middle" height="40px" style="font-size: 14px;"><a href="http://www.apple.com" data-window-group="group2"  >the group 2 link 1 (Apple)</a></td></tr>
+            <tr><td align="center" valign="middle" height="40px" style="font-size: 14px;"><a href="http://www.amazon.com" data-window-group="group1"  >the Group 1 link 2 (Amazon)</a></td></tr>
+            <tr><td align="center" valign="middle" height="40px" style="font-size: 14px;"><a href="http://www.facebook.com" data-window-group="group2"  >the Group 2 link 2 (Facebook)</a></td></tr>
+            <tr><td align="center" valign="middle" height="40px" style="font-size: 14px;" class="options"><a href="http://www.stackoverflow.com" data-window-group="group1" >the Group 1 link 3 (StackOverflow)</a></td></tr>
+            </tbody>
+        </table>
+    </td></tr>
+</table>
+
+<!-- call openWindow plugin, given anchor 'a' element, without 'options' -->
+<script>
+    $('a').openWindow();
+</script>
+
+</body>
+</html>
