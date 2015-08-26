@@ -24,7 +24,7 @@ The plugin should:
 ## File Structure
 ### tree view 
 
-![alt tag](https://cloud.githubusercontent.com/assets/3906272/9496914/f7a49f22-4c55-11e5-89c4-1b2e5d5005d4.png)
+![alt tag](https://cloud.githubusercontent.com/assets/3906272/9498402/fa06485e-4c5c-11e5-9538-3a62bd88d06a.png)
 
 ## Usage
 1. Dowload this 'ZIP' source code, extract the ZIP file to your local trusted path
